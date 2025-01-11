@@ -1,9 +1,7 @@
+import { useState } from "react";
+
 function App() {
     const [count, setCount] = useState(0);
-
-    console.log('test');
-
-    const unused = 'this will cause a lint error';
 
     return (
         <>
